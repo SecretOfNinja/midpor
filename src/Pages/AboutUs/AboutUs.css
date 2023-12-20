@@ -1,0 +1,59 @@
+/* Social Media Icons */
+/* AboutUs.css */
+.about-us-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .contact-us {
+    margin-top: 20px;
+  }
+  
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Adjust the icon size if needed */
+  .social-media svg {
+    margin-right: 5px;
+    font-size: 20px;
+  }

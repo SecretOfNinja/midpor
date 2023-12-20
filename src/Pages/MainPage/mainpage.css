@@ -1,0 +1,70 @@
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f90a23;
+  background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+/* Apply the styles for the full-width fixed header */
+.fixed-header {
+  background-color: #0c0f15;
+  padding: 0px 0;
+  position: fixed;
+  top: 0;
+  left: 0; /* Make the header start from the left edge */
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 4px solid #ff0037;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Ensure the navigation takes up full width */
+}
+
+/* Logo styles */
+.logo img {
+  width: 80px; /* Adjust the width as needed */
+}
+
+/* Navigation links styles */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0; /* Remove default margin */
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #ababab;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff0037;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
