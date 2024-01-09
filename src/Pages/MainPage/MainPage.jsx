@@ -22,6 +22,9 @@ const MainPage = () => {
               <Link to="help-requests">Help Requests</Link>
             </li>
             <li>
+              <Link to="google-map">Google Map</Link>
+            </li>
+            <li>
               <Link to="about-us">About Us</Link>
             </li>
           </ul>

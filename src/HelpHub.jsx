@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Login from './Pages/Login/Login';
@@ -8,6 +7,7 @@ import Home from './Pages/Home/Home';
 import HelpRequests from './Pages/HelpRequests/HelpRequests';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Chat from './Component/Chat';
+import GoogleMap from './Pages/Map/Googlemapapp'; // Import your GoogleMap component
 import './helphub.css';
 
 const App = () => {
@@ -48,6 +48,8 @@ const App = () => {
             <Route path="about-us" element={<AboutUs />} />
             {/* Include the Chat component within the MainPage */}
             <Route path="chat" element={<Chat />} />
+            {/* Include the GoogleMap component within the MainPage */}
+            <Route path="google-map" element={<GoogleMap />} />
           </Route>
         </Routes>
       </div>
